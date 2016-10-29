@@ -25,7 +25,7 @@ At the moment data is retrieving by means of GET requests to the following data 
 
 | Entity | Data Endpoints |
 | ------ | -------------- |
-| Github | `https://api.github.com/users/flopezlasanta` |
+| Github | `https://api.github.com/users/flopezlasanta/repos` |
 
 The response received will be in JSON format.
 
