@@ -1,0 +1,40 @@
+{
+  "name": "react-warp",
+  "version": "1.0.0",
+  "description": "React Warp",
+  "main": "./js/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flopezlasanta/react-warp.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline --hot",
+    "dev": "webpack -p --define process.env.NODE_ENV='\"development\"' --progress --colors",   
+    "prod": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
+  },
+  "author": "Francisco Lopez Lasanta <flopezlasanta@gmail.com>",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "immutable": "^3.8.1",
+    "moment": "^2.15.2",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.30.5",
+    "react-bootstrap-table": "^1.4.6",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
