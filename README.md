@@ -75,3 +75,5 @@ The response received will be in JSON format.
 - [ ] Explore usage of actions / reducers for `axios` requests
 - [ ] Upgrade to use `npm 3` instead of `npm 2`
 - [ ] Fix warning reported by Chrome Developer Tool
+- [ ] Explore migrating to Semantic UI (vs Bootstrap)
+- [ ] Add more contents / tabs!
