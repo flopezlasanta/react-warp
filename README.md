@@ -1,3 +1,12 @@
+# Summary
+
+This is a study project about React and related technologies, mainly the following:
+- [React](https://facebook.github.io/react/)
+- [Redux](http://redux.js.org/docs/introduction/)
+- [Axios](https://github.com/mzabriskie/axios)
+
+<img src="https://raw.githubusercontent.com/flopezlasanta/react-warp/master/screenshot.png" width="384">
+
 ## Getting Started
 
 1. Install Node Package Manager version 2
@@ -6,7 +15,7 @@
 4. Run `npm run prod` to generate the bundled JS code production-ready (or `npm run dev`) for debugging-ready
 5. Open `index.html` in a web browser
 
-## Project and Code Structure
+## Structure
 
 - `package.json`: provides list of project dependencies
 - `webpack.config.js`: provides `Babel` configuration to generate bundled Javascript (`./js/bundle.js`)
