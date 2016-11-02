@@ -1,4 +1,8 @@
-# Summary
+# React Warp
+
+_Travis CI (pending)_ [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+
+## Summary
 
 This is a study project about React and related technologies, mainly the following:
 - [React](https://facebook.github.io/react/)
@@ -83,6 +87,7 @@ The response received will be in JSON format.
 - [ ] Store data collected from endpoints into `redux` so that we can create tabs joining data from different sources
 - [ ] Explore usage of actions / reducers for `axios` requests
 - [ ] Upgrade to use `npm 3` instead of `npm 2`
-- [ ] Fix warning reported by Chrome Developer Tool
-- [ ] Explore migrating to Semantic UI (vs Bootstrap)
-- [ ] Add more contents / tabs!
+- [ ] Fix warning (iterator) reported by Chrome Developer Tool
+- [ ] Explore migrating to *Semantic UI* (vs Bootstrap), creating a branch for that
+- [ ] Work on existing and additional contents / tabs! LinkedIn, Twitter, to start with...
+- [ ] Configure Travis CI and other integrations
